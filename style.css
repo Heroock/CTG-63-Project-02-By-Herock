@@ -1,0 +1,176 @@
+/* ================================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ =============================================================================== */
+
+/* ====================== CSS Styling Start From Here ======================== */
+
+/* ========================= General CSS For All =========================== */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url(images/background.png) repeat fixed;
+}
+
+.main {
+	margin: 0px auto;
+	margin-top: 60px;
+}
+
+.header {
+	overflow: hidden;
+	clear: both;
+	box-sizing: border-box;
+}
+
+.logo img {
+	float: left;
+	height: 20%;
+	margin: 0px;
+	padding: 0px;
+	width: 20%;
+	box-sizing: border-box;
+}
+
+.name h1 {
+	color: black;
+	font-family: american typewriter;
+	width: 100%;
+	font-size: 54px;
+	margin-bottom: -90px;
+	margin-left: 400px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.menubar {
+	/* width: %; */
+	background: gray;
+	box-sizing: border-box;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	float: right;
+	font-weight: bold;
+	margin-bottom: 1px;
+	margin-top: 95px;
+}
+
+.menubar ul {
+	list-style: none;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0px;
+}
+
+.menubar ul li {
+	border-left: 2px solid black;
+	float: left;
+}
+
+.menubar ul li a {
+	color: black;
+	display: block;
+	font-size: 18px;
+	padding: 20px 36px;
+	text-decoration: none;
+}
+
+.menubar ul li a:hover {
+	color: white;
+	font-weight: bold;
+	background: black;
+}
+
+.slider img {
+	width: 100%;
+}
+
+.news-section {
+	width: 100%;
+	padding: 0px;
+	margin-top: 20px;
+	box-sizing: border-box;
+	background: rgba(64, 81, 79, 0.85);
+}
+
+.news {
+	display: inline-block;
+	border: 2px solid gray;
+	width: 33.3%;
+	box-sizing: border-box;
+}
+
+.news img {
+	border-bottom: 2px solid gray;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.news h1 {
+	border-bottom: 2px solid gray;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 15px;
+	text-align: center;
+	background: coral;
+	margin-top: -4px;
+}
+
+.news h1:hover {
+	background: green;
+	color: red;
+	font-weight: bold;
+}
+
+.news p {
+	text-align: justify;
+	color: white;
+	padding: 15px;
+}
+
+button {
+	float: right;
+	margin: 20px 0px 10px 0px;
+	border-radius: 2px;
+	display: block;
+}
+
+button a {
+	font-size: 13px;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+button a:hover {
+	background: blue;
+	color: white;
+}
+
+.footer {
+	background: rgba(19, 64, 147, 0.85);
+	margin-top: 20px;
+	padding: 30px;
+	text-align: center;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+/* ==================== General CSS For All End Here ======================= */
+
+/* ======================= CSS Styling End From Here ========================= */
